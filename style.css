@@ -1,0 +1,96 @@
+
+   
+.key {
+    background-color: rgb(190, 190, 190);
+    width: 80px;
+    height: 80px;
+    border-width: 1px;
+    border: solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 0;
+    border-bottom: 0;
+    font-size: 20px;
+}
+#calculatorPerimiter {
+    border: solid rgb(67, 67, 67);
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    margin-top: 30px;
+}
+#calculator-keypad {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#displayScreen {
+    height: 130px;
+    width: 320px;
+    border: 3px solid black;
+    margin-top: 30px;
+    background-color: rgb(75, 75, 75);
+    overflow: hidden;
+    font-size: 25px;
+}
+.needsBottomBorder {
+    border-bottom: 3px solid black;
+}
+.needsRightBorder {
+    border-right: 3px solid black;
+}
+* {
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+
+    
+}
+
+body {
+    margin: 0vh;
+    height: 100%;
+    width: 100%;
+    min-height: 650px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+#wrapper {
+    min-height: 100vh;
+    background-color: grey;
+}
+.opKey {
+    background-color: rgb(83, 83, 83);
+}
+.equalKey {
+    background-color: rgb(74, 190, 74);
+}
+.delKey {
+    background-color: rgb(215, 34, 34);
+}
+.clearKey {
+    background-color: rgb(201, 145, 40);
+}
+#displayScreen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#operandHolder {
+    font-size: 0px;
+}
